@@ -1,5 +1,5 @@
 from flask import Flask, render_template, request
-from predict_logic import predict_news
+from ml.predict_logic import predict_news
 import os
 
 app = Flask(__name__)
